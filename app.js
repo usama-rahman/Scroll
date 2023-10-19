@@ -40,6 +40,7 @@ window.addEventListener("scroll", function(){
 })
 // smooth Scroll
 // select Links 
+
 const scrollLinks = document.querySelectorAll(".scroll-link")
 const fixedNav = navbar.classList.contains("fixed-nav")
 scrollLinks.forEach(function (link){
