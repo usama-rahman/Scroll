@@ -38,7 +38,7 @@ window.addEventListener("scroll", function(){
         topLink.classList.remove('show-link');    
     }
 })
-// smooth Links
+// smooth Scroll
 // select Links 
 const scrollLinks = document.querySelectorAll(".scroll-link")
 const fixedNav = navbar.classList.contains("fixed-nav")
