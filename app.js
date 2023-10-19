@@ -49,9 +49,7 @@ scrollLinks.forEach(function (link){
         e.preventDefault(); 
         const id = e.currentTarget.getAttribute("href").slice(1);
         const element = document.getElementById(id);
-
         let position = element.offsetTop - navHeight;
-
         if(!fixedNav){
             position = position - navHeight
         }
